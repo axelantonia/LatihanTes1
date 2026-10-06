@@ -83,4 +83,202 @@
         </TextView>
 
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_margin="12dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_rounded_card_abugelap"
+        android:id="@+id/AccountInformation">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleAccountInformation"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="Account Information">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_rounded_card_abuterang"
+            android:id="@+id/Email"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical">
+            
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/email"
+                android:id="@+id/EmailIcon">
+            </ImageView>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/EmailText"
+                    android:textSize="16sp"
+                    android:textColor="#8E8E93"
+                    android:text="Email">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/EmailValue"
+                    android:textSize="16sp"
+                    android:text="sarah@school.edu">
+                </TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_rounded_card_abuterang"
+            android:id="@+id/Phone"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/phone"
+                android:id="@+id/PhoneIcon">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/PhoneText"
+                    android:textSize="16sp"
+                    android:textColor="#8E8E93"
+                    android:text="Phone">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/PhoneValue"
+                    android:textSize="16sp"
+                    android:text="+1 (555) 987-6547">
+                </TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_rounded_card_abuterang"
+            android:id="@+id/Institution"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/institution"
+                android:id="@+id/InstitutionIcon">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/InstitutionText"
+                    android:textSize="16sp"
+                    android:textColor="#8E8E93"
+                    android:text="Institution">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/InstitutionValue"
+                    android:textSize="16sp"
+                    android:text="University of Oxford">
+                </TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_rounded_card_abuterang"
+            android:id="@+id/Role"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/role"
+                android:id="@+id/RoleIcon">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/RoleText"
+                    android:textSize="16sp"
+                    android:textColor="#8E8E93"
+                    android:text="Role">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/RoleValue"
+                    android:textSize="16sp"
+                    android:text="Role">
+                </TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
 </LinearLayout>
